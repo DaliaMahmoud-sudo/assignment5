@@ -1,0 +1,75 @@
+@media screen {
+    
+    .sm-25{
+        width: 25%;
+    }
+     .sm-33{
+        width: 33.3333%;
+    }
+     .sm-50{
+        width: 50%;
+    }
+     .sm-100{
+        display: block;
+        width: 125%;  
+     }
+
+    .sm-hidden{
+        display: none;
+    }
+       .sm-display{
+        display: block;
+    }
+}
+
+/* large */
+@media screen and (min-width:992px) {
+    .lg-25{
+        width: 25%;
+    }
+     .lg-50{
+        width: 50%;
+    }
+     .lg-100{
+        width: 100%;
+      
+    }
+    .lg-30{
+        width: 30%;
+    }
+    
+  .lg-40{
+        width: 40%;
+    }
+      .lg-65{
+        width: 65%;
+    }
+         .lg-35{
+        width: 35%;
+    }
+           .lg-70{
+        width: 70%;
+    }
+    .lg-display{
+        display: block;
+    }
+       .lg-hidden{
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        margin-top: 20px;
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.5fr 1fr 1fr 1fr;
+  gap: 12px 12px;
+  grid-template-areas:
+    "outcomes outcomes outcomes outcomes income income income income account account account account"
+    "transactions transactions transactions transactions transactions transactions transactions transactions recent-activities recent-activities recent-activities recent-activities"
+    "transactions transactions transactions transactions transactions transactions transactions transactions receiepts receiepts receiepts receiepts"
+    "payment-methods payment-methods payment-methods payment-methods incomeVsOutgoing incomeVsOutgoing incomeVsOutgoing incomeVsOutgoing recap recap recap recap"
+    "payment-methods payment-methods payment-methods payment-methods acc-summary acc-summary acc-summary acc-summary recap recap recap recap";
+}
+    
+}
